@@ -24,7 +24,7 @@ while cond:
             board[ny][nx] = 2
             x, y = nx, ny
             result += 1
-            # 방향 변경경
+            # 방향 변경
             direction = d
             break
         # 주변의 모든 칸이 방문했거나 바다일 경우 뒤로 이동
