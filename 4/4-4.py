@@ -30,7 +30,7 @@ while cond:
         # 주변의 모든 칸이 방문했거나 바다일 경우 뒤로 이동
         if i == 4:
             nx, ny = x - move[direction][0], y - move[direction][1]
-            # 뒷 칸이 바다라면 이동 종료료
+            # 뒷 칸이 바다라면 이동 종료
             if board[ny][nx] == 1:
                 cond = False
                 break
